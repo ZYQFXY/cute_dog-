@@ -11,7 +11,7 @@
         body {
             font-family: 'ZCOOL+XiaoWei', 'Microsoft YaHei', sans-serif;
             background: #fff5f7;
-            overflow: x-hidden;
+            overflow-x: hidden;
         }
         .floating {
             animation: floating 3s ease-in-out infinite;
@@ -25,17 +25,18 @@
 <script type="importmap">
 {
   "imports": {
-    "lucide-react": "https://esm.sh/lucide-react@0.475.0",
-    "react-dom/": "https://esm.sh/react-dom@19.0.0/",
-    "react/": "https://esm.sh/react@19.0.0/",
-    "react": "https://esm.sh/react@19.0.0"
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "vite": "https://esm.sh/vite@^7.3.1",
+    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.2"
   }
 }
 </script>
 </head>
 <body class="bg-pink-50">
     <div id="root"></div>
-    <!-- 必须显式引入入口文件 -->
-    <script type="module" src="./index.tsx"></script>
+    <script type="module" src="/index.tsx"></script>
 </body>
 </html>
