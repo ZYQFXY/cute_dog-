@@ -40,7 +40,7 @@ const DOG_STATES: Record<Stage, DogState> = {
   },
   [Stage.HAPPY]: {
     image: 'https://images.unsplash.com/photo-1534361960057-19889db9621e?w=600&h=600&fit=crop', // Super happy
-    text: '谢谢姐姐！最喜欢姐姐了！',
+    text: '谢谢姐姐！',
     bgColor: 'bg-yellow-50',
   },
 };
